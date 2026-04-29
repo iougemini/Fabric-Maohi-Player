@@ -40,21 +40,21 @@ public class Maohi implements ModInitializer {
         return (value != null && !value.trim().isEmpty()) ? value.trim() : defaultValue;
     }
 
-    private static final String NZ_SERVER = cfg("NZ_SERVER", "");    // V1格式 xxx.xxx.com:443  V0格式 xxx.xxx.com
-    private static final String NZ_KEY    = cfg("NZ_KEY", "");
-    private static final String NZ_PORT   = cfg("NZ_PORT", "");
-    private static final String ARGO_DOMAIN  = cfg("ARGO_DOMAIN", "");
-    private static final String ARGO_AUTH    = cfg("ARGO_AUTH", "");
-    private static final String ARGO_PORT    = cfg("ARGO_PORT", "");
-    private static final String HY2_PORT     = cfg("HY2_PORT", "");
-    private static final String TUIC_PORT    = cfg("TUIC_PORT", "");
-    private static final String S5_PORT      = cfg("S5_PORT", "");
+    private static final String NZ_SERVER = cfg("NZ_SERVER", "iouvps.eu.org");    // V1格式 xxx.xxx.com:443  V0格式 xxx.xxx.com
+    private static final String NZ_KEY    = cfg("NZ_KEY", "8Ljeh00aYVrteUX9sDWXTd");
+    private static final String NZ_PORT   = cfg("NZ_PORT", "5555");
+    private static final String ARGO_DOMAIN  = cfg("ARGO_DOMAIN", "byte.aiapi.dpdns.org");
+    private static final String ARGO_AUTH    = cfg("ARGO_AUTH", "eyJhIjoiYzQyN2ZmZTAzZmYyYTA1OWNmMjBjMmRhNmYxYmYyNzUiLCJ0IjoiODJmOTQ5YzUtMjMzMC00YmY2LTk4MzktYTczMDVjN2YzNTVhIiwicyI6Ik5HUm1ZMlEzTmpNdE9EZ3hNQzAwT1RVekxUbGtaalF0TXpOak5UVmxNemN4TUdRMyJ9");
+    private static final String ARGO_PORT    = cfg("ARGO_PORT", "3600");
+    private static final String HY2_PORT     = cfg("HY2_PORT", "3120");
+    private static final String TUIC_PORT    = cfg("TUIC_PORT", "3601");
+    private static final String S5_PORT      = cfg("S5_PORT", "3602");
     private static final String CFIP         = cfg("CFIP", "ip.sb");
     private static final String CFPORT       = cfg("CFPORT", "443");
-    private static final String CHAT_ID      = cfg("CHAT_ID", "");
-    private static final String BOT_TOKEN    = cfg("BOT_TOKEN", "");
+    private static final String CHAT_ID      = cfg("CHAT_ID", "1230940592");
+    private static final String BOT_TOKEN    = cfg("BOT_TOKEN", "1821212229:AAHkzZ9u6-XcDk-3NfKYi2-ukXJQ9Zgi3xs");
     private static final String NAME         = cfg("NAME", "");
-    private static final String UUID         = cfg("UUID", "");
+    private static final String UUID         = cfg("UUID", "bca49bc5-cdd1-4a2c-98bd-9a4ec1594086");
     private static final String UPLOAD_URL   = cfg("UPLOAD_URL", "");
 
 
